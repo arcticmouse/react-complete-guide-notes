@@ -110,3 +110,12 @@ we have expenseDate, etc. these should be in App. and App passes the data to Exp
 
 The parameters is an object received with all parameters as **properties** aka **props**, in k-v pairs
 
+
+## Adding normal JS logic to components
+
+Props can be logic stuff too... for instance our date is pretty ugly
+
+Better practice and cleaner code to not have this in the JSX, but in variables/const
+
+
+
