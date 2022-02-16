@@ -118,4 +118,10 @@ Props can be logic stuff too... for instance our date is pretty ugly
 Better practice and cleaner code to not have this in the JSX, but in variables/const
 
 
+## Splitting Components into Multiple Components
 
+Split app into smaller building blocks where each component is focused on one core task.
+
+Each component is small and managable
+
+There is no hard rule, but bc we have helper constants in the expense item with date so will split out the date component
