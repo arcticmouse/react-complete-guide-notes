@@ -153,3 +153,6 @@ Organize into subfolders
 ## Alternative Function Syntax
 
 Use arrow functions
+
+
+[Code snapshots](https://github.com/academind/react-complete-guide-code/tree/03-react-basics-working-with-components)
