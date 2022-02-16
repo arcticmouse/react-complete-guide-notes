@@ -102,3 +102,11 @@ can also include JS functions.
 
 can just c/p <ExpenseItem></ExpenseItem> in app.js :p
 
+also use parameters and 'props'
+
+set properties (props) of our own custom components
+
+we have expenseDate, etc. these should be in App. and App passes the data to ExpenseItem as parameters
+
+The parameters is an object received with all parameters as **properties** aka **props**, in k-v pairs
+
