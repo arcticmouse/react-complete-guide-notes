@@ -9,6 +9,8 @@ Seperation of concerns: dont do too many things in one and the same place(functi
 
 Just a JS function!
 
+Build UI by building & combining components
+
 
 ## React Code Written In A Declarative Way
 
@@ -125,3 +127,29 @@ Split app into smaller building blocks where each component is focused on one co
 Each component is small and managable
 
 There is no hard rule, but bc we have helper constants in the expense item with date so will split out the date component
+
+
+## Concept of composition
+
+Custom components as wrappers
+
+props.children : children is always the contents between the custom tag (Card, in this example)
+
+All components and elements COMPOSED together to create an expense component
+
+
+## JSX
+
+import React in all files where you use JSX
+
+could use `return React.createElement()` for each element instead of JSX, but this is ugly
+
+
+## Organizing Component Files
+
+Organize into subfolders
+
+
+## Alternative Function Syntax
+
+Use arrow functions
