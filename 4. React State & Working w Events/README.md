@@ -32,4 +32,11 @@ useState wants a variable, and returns access to the special variable & a functi
 
 You need state to set and change values that are reflected in the UI
 
+Now we want to call state updating function when the event (click) happens
+
+
+## Closer look at 'useState' hook
+
+
+
 
