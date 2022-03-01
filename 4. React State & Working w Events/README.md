@@ -37,6 +37,12 @@ Now we want to call state updating function when the event (click) happens
 
 ## Closer look at 'useState' hook
 
+useState registeres some state for the component in which it is called, for a SPECIFIC INSTANCE.
 
+When state changes, only that specific instance of that component function's state is re-evaluated.
+
+When we update state we do it in a function, not assigning value with the equal sign. We never see the var itself, React manages it for us.
+
+We always get a brand new snapshot of the state when the component function re-executes. Does that mean we over ride with props? React keeps track of the first call to useState! It can detect it is not an initializing change and then give us the updated state.
 
 
