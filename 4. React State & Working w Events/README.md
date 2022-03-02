@@ -72,3 +72,10 @@ Can call useState more than once
 
 
 ## Using One State Instead (and what's better)
+
+Normal to use multiple states, but can also put in the same state. Is your preference on what to do.
+
+Using one state, make an object. Then when you update a property have to update all three otherwise it will be lost. Have to manually copy in existing values of non-updated props, and can
+use spread operator to do this.
+
+individual state slices is more common but ultimately both are ok. 
