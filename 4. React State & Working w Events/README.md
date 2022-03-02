@@ -46,3 +46,19 @@ When we update state we do it in a function, not assigning value with the equal 
 We always get a brand new snapshot of the state when the component function re-executes. Does that mean we over ride with props? React keeps track of the first call to useState! It can detect it is not an initializing change and then give us the updated state.
 
 
+## Adding Form Inputs
+
+Add new components to our project, Current components are about showing info. 
+
+New component will return a div with a form inside.
+
+Then we need to gather the input values when a value changes, then on submit take the values and combine them into a new expense object.
+
+
+## Listening to User Input
+
+Get and store in the input - need to add listeners to listen for changes. Add htem on the element which gets the listener. 
+
+The onChange just POINTS (not CALLS) to the handler.
+
+We pass the function to React, along with the event object (default to JS)
