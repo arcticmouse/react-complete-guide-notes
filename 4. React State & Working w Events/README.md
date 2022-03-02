@@ -62,3 +62,13 @@ Get and store in the input - need to add listeners to listen for changes. Add ht
 The onChange just POINTS (not CALLS) to the handler.
 
 We pass the function to React, along with the event object (default to JS)
+
+
+## Working with Multiple States
+
+We want to store the input value so that later when the form is submitted we can use the value, then combine all input values into an object when the form is submitted.
+
+Can call useState more than once
+
+
+## Using One State Instead (and what's better)
