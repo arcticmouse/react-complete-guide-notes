@@ -79,3 +79,50 @@ Using one state, make an object. Then when you update a property have to update 
 use spread operator to do this.
 
 individual state slices is more common but ultimately both are ok. 
+
+
+## Updating State that depends on the previous state
+
+
+
+## Handling Form Submission
+
+If a button, esp with type submit, is pressed the form executes a function
+
+Add an event handler to the form to override the default browser form behavior, and in that
+immediatly do event.preventDefault
+
+Then save all the entered data in a new object expenseData to use later. For now we will just console log it.
+
+Then clear data in input form fields when the form is submitted
+
+
+## Adding Two Way Binding
+
+How to clear the inputs?
+
+Because we stored them in state we can implement two way binding, that listens and passes back into the input
+
+Add value property to each input field, and then bind it to it's state var
+
+Then after saving the submitted data in call the set* functions to set them to empty strings
+
+
+## Child to parent component communication (bottom up)
+
+We actually need to send the form data to the App.js to go into the ExpenseItem list!
+
+Sending down can be done with props, but to do it bottom up - we can create our own event props and pass a function from parent to child, then call the funciton inside the component with data as parameter
+
+1. Add onSaveExpenseData prop to NewExpense component, and dont add parentheses just point at the function that is being passed
+
+2. Use that function inside ExpenseForm component now
+
+*Trick is we pass around a pointer at a function*
+
+We get props in ExpenseForm, so add props to the params of the component, then instead of console logging the expenseData in submitHandler, execute the passed function with expenseData as the argument
+
+Then do the same for NewExpense -> App
+
+
+## Lifting the state up
