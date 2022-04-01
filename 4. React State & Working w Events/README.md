@@ -126,3 +126,8 @@ Then do the same for NewExpense -> App
 
 
 ## Lifting the state up
+
+State generated in one compontne, but needed in a sibling component. There is no direct connection between sibling components.
+
+The parent component has access to both components, so we "lift the state up" to the App.js component by using props to pass data through functions, then pass it down via props too.
+
