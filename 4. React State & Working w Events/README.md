@@ -131,3 +131,9 @@ State generated in one compontne, but needed in a sibling component. There is no
 
 The parent component has access to both components, so we "lift the state up" to the App.js component by using props to pass data through functions, then pass it down via props too.
 
+
+## Controlled vs Uncontrolled Components & Stateless vs Stateful Components
+
+ExpensesFilter is a controlled custom component with the real logic in the parent component.
+
+Statless, presentational, dumb component (most apps will have more of these) = just for presentation
