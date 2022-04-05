@@ -137,3 +137,5 @@ The parent component has access to both components, so we "lift the state up" to
 ExpensesFilter is a controlled custom component with the real logic in the parent component.
 
 Statless, presentational, dumb component (most apps will have more of these) = just for presentation
+
+Manage state in a couple of components and pass it around to a couple of other components.
