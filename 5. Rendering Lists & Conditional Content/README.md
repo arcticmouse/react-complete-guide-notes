@@ -41,3 +41,14 @@ Add li tag to Card item to semantically make it better
 Rendering chart bar components in a chart component
 
 Chart receives data points as props! One chart bar for each data point
+
+
+## Adding Dynamic Styles
+
+Heights for the chart bars! They should be filled depending on the value/data point they receive
+
+Calculate the percentage and make it a string, as var barFillHeight (in chartbar.js). Style needs an object in JSX, with css properties as the name/key. If CSS name has a dash do camelCase.
+
+
+## Wrapping it up...
+
