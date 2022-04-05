@@ -53,3 +53,20 @@ Calculate the percentage and make it a string, as var barFillHeight (in chartbar
 ## Wrapping it up...
 
 Add a component in /expenses to hold this, and send props down
+
+
+## Fixing a small bug
+
+Force a number conversion in ExpenseForm.js
+
+
+        const expenseData = {
+            title: enteredTitle,
+            amount: enteredAmount,
+            date: new Date(enteredDate)
+        };
+
+
+            amount: +enteredAmount,
+
+
