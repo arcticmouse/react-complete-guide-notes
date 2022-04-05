@@ -18,3 +18,9 @@ As it is React doesn't tell the difference between different items
 
 key prop (added to expenseItem component) can be added to any item, built into react to be interpretted as a unique ID
 
+
+## Outputting conditional content
+
+How to render different content under different conditions
+1. can do ternary, long ternary is hard to read so can use the && operator as a JS trick
+1. then we have two 'trick' cases so easier to read
