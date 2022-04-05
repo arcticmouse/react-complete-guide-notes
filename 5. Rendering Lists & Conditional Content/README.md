@@ -34,3 +34,10 @@ Add an expenseslist component
 Entire content changes so we can do the content change with different logic
 
 Add li tag to Card item to semantically make it better
+
+
+## Adding a chart
+
+Rendering chart bar components in a chart component
+
+Chart receives data points as props! One chart bar for each data point
