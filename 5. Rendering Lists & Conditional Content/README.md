@@ -25,3 +25,12 @@ How to render different content under different conditions
 1. can do ternary, long ternary is hard to read so can use the && operator as a JS trick
 1. then we have two 'trick' cases so easier to read : ``{filteredExpenses.length === 0 && <p>No expenses found.</p>} ``
 1. better yet, put the content into a const and have the logic in the component and not the JSX
+
+
+## Adding Conditional Return Statements
+
+Add an expenseslist component
+
+Entire content changes so we can do the content change with different logic
+
+Add li tag to Card item to semantically make it better
