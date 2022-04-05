@@ -52,3 +52,4 @@ Calculate the percentage and make it a string, as var barFillHeight (in chartbar
 
 ## Wrapping it up...
 
+Add a component in /expenses to hold this, and send props down
