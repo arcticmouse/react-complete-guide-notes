@@ -23,4 +23,5 @@ key prop (added to expenseItem component) can be added to any item, built into r
 
 How to render different content under different conditions
 1. can do ternary, long ternary is hard to read so can use the && operator as a JS trick
-1. then we have two 'trick' cases so easier to read
+1. then we have two 'trick' cases so easier to read : ``{filteredExpenses.length === 0 && <p>No expenses found.</p>} ``
+1. better yet, put the content into a const and have the logic in the component and not the JSX
