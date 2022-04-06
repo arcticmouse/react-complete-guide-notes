@@ -68,5 +68,3 @@ Force a number conversion in ExpenseForm.js
 
 
             amount: +enteredAmount,
-
-
